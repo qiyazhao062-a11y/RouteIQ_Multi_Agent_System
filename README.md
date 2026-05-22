@@ -4,6 +4,15 @@ RouteIQ is a multi-agent ML pipeline that automates customer support ticket tria
 
 ---
 
+## Tech Stack
+
+Python · LangGraph · scikit-learn (TF-IDF, Random Forest, Logistic Regression) · GPT-4o-mini · RAG
+
+Dataset: [Multilingual Customer Support Tickets](https://www.kaggle.com/datasets/tobiasbueck/multilingual-customer-support-tickets) — 28,580 tickets (EN/DE)
+
+---
+
+
 ## System Architecture
 
 Built on **LangGraph** with 8 agent nodes and a shared `AgentState` store.
@@ -39,14 +48,6 @@ Tickets below **50% confidence** are automatically flagged for human review.
 | Baseline (majority class) | 0.045 | 0.132 | 29.3% |
 
 Strongest queues: Service Outages & Maintenance (F1=0.684), Technical Support (F1=0.608).
-
----
-
-## Tech Stack
-
-Python · LangGraph · scikit-learn (TF-IDF, Random Forest, Logistic Regression) · GPT-4o-mini · RAG
-
-Dataset: [Multilingual Customer Support Tickets](https://www.kaggle.com/datasets/tobiasbueck/multilingual-customer-support-tickets) — 28,580 tickets (EN/DE)
 
 ---
 
