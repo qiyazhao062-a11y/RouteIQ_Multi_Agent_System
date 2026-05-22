@@ -46,7 +46,7 @@ Strongest queues: Service Outages & Maintenance (F1=0.684), Technical Support (F
 
 Python · LangGraph · scikit-learn (TF-IDF, Random Forest, Logistic Regression) · GPT-4o-mini · RAG
 
-Dataset: Multilingual Customer Support Tickets — 28,580 tickets (EN/DE)
+Dataset: [Multilingual Customer Support Tickets](https://www.kaggle.com/datasets/tobiasbueck/multilingual-customer-support-tickets) — 28,580 tickets (EN/DE)
 
 ---
 
